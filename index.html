@@ -9,43 +9,150 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
-
   <body>
-    
     <div class="row">
-      <div class="col-3 bg-warning"></div>
-      <div class="col-6 bg-danger"></div>
-      <div class="col-1.5 bg-warning"></div>
-      <div class="col-1.5 bg-primary"></div>
+      <div class="col-3 bg-success-subtle">Logo</div>
+      <div class="col-6 bg-info-subtle text-center">
+        <h3>Dire Dawa University</h3>
+
+        <h4>Institute of Technology</h4>
+        <h5>School of Computing</h5>
+      </div>
+      <div class="col-2 bg-warning-subtle">Profile</div>
+      <div class="col-1 bg-primary-subtle">Logout</div>
+    </div>
+    <div class="row">
+      <div class="col-4 bg-danger-subtle">Computer Science</div>
+      <div class="col-4 bg-primary-subtle">Information Technology</div>
+      <div class="col-4 bg-success-subtle">Software Engineering</div>
+    </div>
+    <div class="row">
+      <div class="col-1 bg-primary-subtle">1st Year</div>
+      <div class="col-1 bg-success-subtle">2nd Year</div>
+      <div class="col-1 bg-danger-subtle">3rd Year</div>
+      <div class="col-1 bg-warning-subtle">4th Year</div>
+      <div class="col-1 bg-primary-subtle">1st Year</div>
+      <div class="col-1 bg-success-subtle">2nd Year</div>
+      <div class="col-1 bg-danger-subtle">3rd Year</div>
+      <div class="col-1 bg-warning-subtle">4th Year</div>
+      <div class="col bg-primary-subtle">1st Year</div>
+      <div class="col bg-success-subtle">2nd Year</div>
+      <div class="col bg-danger-subtle">3rd Year</div>
+      <div class="col bg-warning-subtle">4th Year</div>
+      <div class="col bg-dark-subtle">5th Year</div>
+    </div>
+    <br /><br /><br />
+    <div class="text-center">
+      <h1>Hello World !</h1>
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button> <br />
+      <br />
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button>
     </div>
 
-    
-    <h1>Hello World ! </h1>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button> <br> <br>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">School of Computing Student Registration</h2>
+      <form>
+        <div class="mb-3">
+          <label for="studentId" class="form-label">Student ID</label>
+          <input
+            type="text"
+            class="form-control"
+            id="studentId"
+            placeholder="DDU1000000"
+          />
+          <small class="form-text text-muted"
+            >Your unique student identification number.</small
+          >
+        </div>
+        <div class="mb-3">
+          <label for="firstName" class="form-label">First Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="firstName"
+            placeholder="Your given first name"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="middleName" class="form-label">Middle Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="middleName"
+            placeholder="Your middle name"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="lastName"
+            placeholder="Your family or last name"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="sex" class="form-label">Sex</label>
+          <select class="form-select" id="sex">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="batch" class="form-label">Batch</label>
+          <select class="form-select" id="batch">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="department" class="form-label">Department</label>
+          <select class="form-select" id="department">
+            <option value="CS">CS</option>
+            <option value="IT">IT</option>
+            <option value="SE">SE</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <small class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+        <div class="mb-3">
+          <label for="favoriteColor" class="form-label">Favorite Color</label>
+          <input
+            type="color"
+            class="form-control form-control-color"
+            id="favoriteColor"
+            title="Choose your color"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </body>
 </html>
